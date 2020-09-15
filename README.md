@@ -2,6 +2,4 @@
 
 > Ce projet est fait sous ExpressJS et MongoDB, voici une démo en ligne :
 
-```
-https://codesandbox.io/s/la-bonne-merguez-n70w0
-```
+***https://codesandbox.io/s/la-bonne-merguez-n70w0***
