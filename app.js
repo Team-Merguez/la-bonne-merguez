@@ -7,14 +7,18 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
+const viewsFolder = path.join(__dirname, 'views');
+const layoutFolder = path.join(__dirname, 'views/layout');
+const componentFolder = path.join(__dirname, 'views/component');
+
 var app = express();
 
 // view engine setup and add set of directories to lookout
-app.set('views', [path.join(__dirname, 'views'), path.join(__dirname, 'views/layout'), path.join(__dirname, 'views/component')]);
+app.set('views', [viewsFolder, layoutFolder, componentFolder]);
 // Set required engine
 app.set('view engine', 'hbs');
 // Change the location of our global default layout if necessary
-// app.set('view options', { layout: './layout/layout' });
+app.set('view options', { layout: './layout/layout' });
 
 app.use(logger('dev'));
 app.use(express.json());
