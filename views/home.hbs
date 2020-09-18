@@ -1,0 +1,22 @@
+{{!-- Cities section --}}
+<div class="row text-center no-gutters mt-2">
+    <div class="col-12">
+        <h1 class="title">Bienvenue sur {{title}}</h1>
+    </div>
+</div>
+{{!-- Map section --}}
+<div class="row justify-content-around text-center no-gutters mt-5">
+    <div class="col-auto">
+        <h2>Trouvez votre merguez par région</h2>
+        <ul class="list-group">
+            {{#each cities}}
+            <li class="list-group-item list-group-item-action listRegions list-{{this}}">
+                <a href="./{{this}}">{{this}}</a>
+            </li>
+            {{/each}}
+        </ul>
+    </div>
+    <div class="col-6">
+        {{>carte}}
+    </div>
+</div>

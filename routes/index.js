@@ -1,9 +1,35 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
 
-/* GET home page. */
+const APIRoutes = {
+  title: 'La Bonne Merguez',
+  cities: ['Paris', 'Lyon', 'Marseille']
+}
+
+// Main routes
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'La bonne Merguez' });
+  res.render('home', APIRoutes);
+});
+
+router.get('/login', function(req, res, next) {
+  res.render('login', APIRoutes);
+});
+
+router.get('/signup', function(req, res, next) {
+  res.render('signup', APIRoutes);
+});
+
+// Cities routes
+router.get('/Paris', function(req, res, next) {
+  res.render('cities', APIRoutes);
+});
+
+router.get('/Lyon', function(req, res, next) {
+  res.render('cities', APIRoutes);
+});
+
+router.get('/Marseille', function(req, res, next) {
+  res.render('cities', APIRoutes);
 });
 
 module.exports = router;
