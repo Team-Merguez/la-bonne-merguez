@@ -1,35 +1,69 @@
 const express = require('express');
+const config = require('../middleware/config');
 const router = express.Router();
 
-const APIRoutes = {
-  title: 'La Bonne Merguez',
-  cities: ['Paris', 'Lyon', 'Marseille']
-}
-
 // Main routes
-router.get('/', function(req, res, next) {
-  res.render('home', APIRoutes);
+router.get(indexRoutes, function(req, res, next) {
+  res.render(homeTemplate, config);
 });
 
-router.get('/login', function(req, res, next) {
-  res.render('login', APIRoutes);
+router.get(loginRoutes, function(req, res, next) {
+  if (req.isAuthenticated()) {
+    console.log(userIsAuthAdmin);
+    res.redirect(adminTemplate, config);
+  } else {
+    console.log(userIsNotAuthLogin);
+    res.render(loginTemplate, config);
+  }
 });
 
-router.get('/signup', function(req, res, next) {
-  res.render('signup', APIRoutes);
+router.get(signupRoutes, function(req, res, next) {
+  if (req.isAuthenticated()) {
+    console.log(userIsAuthAdmin);
+    res.redirect(adminTemplate, config);
+  } else {
+    console.log(userIsNotAuthSignup);
+    res.render(signupTemplate, config);
+  }
 });
+
+// Admin routes
+router.get(adminRoutes, (req, res) => {
+  if (req.isAuthenticated()) {
+    console.log(req.user);
+    console.log(userIsAuthAdmin);
+    res.render(adminTemplate, config);
+  } else {
+    console.log(userIsNotAuthIndex);
+    res.redirect(indexTemplate, config);
+  }
+})
+
+router.get('/admin/products/add', (req, res) => {
+  console.log('GET /admin/products/add');
+  res.render('add', config);
+})
+
+router.get(messagesRoutes, (req, res) => {
+  res.render(messagesTemplate, config);
+})
+
+// Products routes
+router.get(productsRoutes, (req, res) => {
+  res.render(productsTemplate);
+})
 
 // Cities routes
-router.get('/Paris', function(req, res, next) {
-  res.render('cities', APIRoutes);
+router.get(citiesRoutes.paris, function(req, res, next) {
+  res.render(citiesTemplate, config);
 });
 
-router.get('/Lyon', function(req, res, next) {
-  res.render('cities', APIRoutes);
+router.get(citiesRoutes.lyon, function(req, res, next) {
+  res.render(citiesTemplate, config);
 });
 
-router.get('/Marseille', function(req, res, next) {
-  res.render('cities', APIRoutes);
+router.get(citiesRoutes.marseille, function(req, res, next) {
+  res.render(citiesTemplate, config);
 });
 
 module.exports = router;

@@ -1,0 +1,151 @@
+[{
+  "_id": {
+    "$oid": "5f6250251e993709988e8259"
+  },
+  "user_id": "5f6243391e993709988e8232",
+  "city_id": "5f6244ee1e993709988e8237",
+  "title": "Epice à merguez super 1kg",
+  "price": "21",
+  "description": "Épices complètes pour fabrication de merguez, sachet de 1 kilo",
+  "created": "2020-09-02"
+},{
+  "_id": {
+    "$oid": "5f6250251e993709988e825a"
+  },
+  "user_id": "5f6243391e993709988e8232",
+  "city_id": "5f6244ee1e993709988e8237",
+  "title": "Lot de 4 paquet chips saveur Merguez",
+  "price": "25",
+  "description": "Les chips saveurs Merguez Grillée de VICO sont de délicieuses chips ondulées et craquantes, cuisinées avec de bonnes pommes de terre françaises. Leur goût relevé, à base d'épices piquantes et d herbes aromatiques ne manquera pas de vous rappeler vos délicieuses grillades estivales !. \\n Ingrédients : Pommes de terre, huile de tournesol, arôme naturel, sel, paprika, oignon, ail, cumin, coriandre, poivre, herbes aromatiques, piment de Cayenne, bouillon de porc. Traces éventuelles de LAIT, GLUTEN, MOUTARDE. Fabriqué dans un atelier qui utilise des ARACHIDES.",
+  "created": "2020-09-03"
+},{
+  "_id": {
+    "$oid": "5f6250251e993709988e825b"
+  },
+  "user_id": "5f6243391e993709988e8233",
+  "city_id": "5f6244ee1e993709988e8237",
+  "title": "Vinyle Les Musclés : Merguez Partie",
+  "price": "10",
+  "description": "Vinyle des Musclés avec Bernard Minet en excellent état. Le tube interplanètaire Merguez Partie",
+  "created": "2020-09-04"
+},{
+  "_id": {
+    "$oid": "5f6250251e993709988e825c"
+  },
+  "user_id": "5f6243391e993709988e8234",
+  "city_id": "5f6244ee1e993709988e8238",
+  "title": "Pas de Merguez pour les sorcières",
+  "price": "5",
+  "description": "Au parc Lancelot Margot c'est la pro du roller. Et ça tombe bien ! Sa rapidité et sa souplesse lui permettent d'échapper in extremis au sort d'une vilaine petite sorcière qui sévit dans le parc et transforme tous les enfants qui passent à portée de doigt en merguez ! Margot plus curieuse que peureuse décide d'approcher l'étrange personnage... et apprend que la petite sorcière s'entraîne pour passer son diplôme de sorcellerie majeure. L'épreuve consiste à transformer un car de touristes en saucisses pur porc ! Elle en est loin avec ses pauvres petites merguez !",
+  "created": "2020-09-05"
+},{
+  "_id": {
+    "$oid": "5f6250251e993709988e825d"
+  },
+  "user_id": "5f6243391e993709988e8236",
+  "city_id": "5f6244ee1e993709988e8239",
+  "title": "Alice au pays des Merguez de San-Antonio",
+  "price": "7",
+  "description": "Dans cet ouvrage, tu prendras connaissance de l'événement le plus important qui se soit produit depuis que l'homme a marché sur la Lune. Un événement que l'on jugeait tellement impensable qu'on n'y pensait plus. La nouvelle a créé un remue-ménage extrême dans la vie française. Au point que M. le président de la République a honoré ce livre d'une préface. Si mon éditeur a refusé de la publier, c'est parce qu'il était convaincu que, d'ici quelques années, San-Antonio sera bien plus connu que le président ; et qu'il serait donc anormal qu'un auteur célèbre fût cautionné par un président oublié. Il n'en reste pas moins que c'était un très bel élan du coeur dont je remercie vivement le Pommier des Français. Ce qui l'avait motivé ? Je vais te dire, prépare-toi au choc : Béru et Berthe viennent d'avoir un enfant. Un vrai, bien à eux, déjà gras et dégueulasse, car bon sang ne peut mentir. C'est pas de l'événement pur fruit, ça ? Ouvre vite la fenêtre, je sens que tu vas t'évanouir.",
+  "created": "2020-09-06"
+},{
+  "_id": {
+    "$oid": "5f6250251e993709988e825e"
+  },
+  "user_id": "5f6243391e993709988e8235",
+  "city_id": "5f6244ee1e993709988e8238",
+  "title": "CD Merguez de Savages Sasages",
+  "price": "3",
+  "description": "Superbe musique pour faire le barbecue",
+  "created": "2020-09-07"
+},{
+  "_id": {
+    "$oid": "5f6250251e993709988e825f"
+  },
+  "user_id": "5f6243391e993709988e8234",
+  "city_id": "5f6244ee1e993709988e8238",
+  "title": "L'ours voleur de Merguez",
+  "price": "5",
+  "description": "Tranquillement installé chez lui un lapin prend son petit-déjeuner.\r\nAu menu chocolat chaud jus d'orage... quand soudain un ours fait irruption et lui chipe ses merguez. Une folle poursuite s'engage…",
+  "created": "2020-09-08"
+},{
+  "_id": {
+    "$oid": "5f6250251e993709988e8260"
+  },
+  "user_id": "5f6243391e993709988e8233",
+  "city_id": "5f6244ee1e993709988e8237",
+  "title": "Chipo-Merguez, 30 recettes du boucher",
+  "price": "15",
+  "description": "Catherine Quévremont : auteur de nombreux livres de cuisine vit à présent à Vaison-la-romaine. Elle a passé toute sa carrière de journaliste culinaire à explorer les territoires de France et d'ailleurs.",
+  "created": "2020-09-09"
+},{
+  "_id": {
+    "$oid": "5f6250251e993709988e8261"
+  },
+  "user_id": "5f6243391e993709988e8232",
+  "city_id": "5f6244ee1e993709988e8237",
+  "title": "Grilles de Cuisson pour Barbecue. Grillades - viandes - chipolatas - merguez",
+  "price": "20",
+  "description": "Grille en acier chromé \r\nPoignée souple ergonomique \r\nAnneau de serrage au niveau du manche \r\nDimensions grille : 22 x 35 cm\r\nPoids : 620 gr",
+  "created": "2020-09-10"
+},{
+  "_id": {
+    "$oid": "5f6250251e993709988e8262"
+  },
+  "user_id": "5f6243391e993709988e8236",
+  "city_id": "5f6244ee1e993709988e8239",
+  "title": "Merguez Boeuf & Mouton - Lot de 3 × 6 Merguez",
+  "price": "26",
+  "description": "Amateurs de merguez, voici un lot de 18 (3 × 6) délicieuses merguez artisanales sans porc ",
+  "created": "2020-09-11"
+},{
+  "_id": {
+    "$oid": "5f6250251e993709988e8263"
+  },
+  "user_id": "5f6243391e993709988e8234",
+  "city_id": "5f6244ee1e993709988e8238",
+  "title": "Mini Barbecue pour 1 Merguez",
+  "price": "33",
+  "description": "Préparez un super barbecue pour une personne Idéal pour réaliser vos plaisirs culinaires Grillez une merguez En métal, y'a plus qu'à faire chauffer le barbecue !",
+  "created": "2020-09-12"
+},{
+  "_id": {
+    "$oid": "5f6250251e993709988e8264"
+  },
+  "user_id": "5f6243391e993709988e8235",
+  "city_id": "5f6244ee1e993709988e8238",
+  "title": "Pince à Merguez en inox",
+  "price": "25",
+  "description": "Pince d'une longueur de 5cm alvéolées pour saisir les merguez sur le barbecue",
+  "created": "2020-09-13"
+},{
+  "_id": {
+    "$oid": "5f6250251e993709988e8265"
+  },
+  "user_id": "5f6243391e993709988e8233",
+  "city_id": "5f6244ee1e993709988e8237",
+  "title": "Pince à Merguez téléscopique",
+  "price": "5",
+  "description": "Parfait pour vos barbecues et feux de camps. Grillez vos merguez comme de vrais boy-scouts mais sans prendre un coup de chaud. Le pic extensible jusqu’à 90cm permet de retourner facilement les merguez en restant à bonne distance.",
+  "created": "2020-09-14"
+},{
+  "_id": {
+    "$oid": "5f6250251e993709988e8266"
+  },
+  "user_id": "5f6243391e993709988e8236",
+  "city_id": "5f6244ee1e993709988e8239",
+  "title": "Barbecue jardinière balcon pour Merguez",
+  "price": "50",
+  "description": "La jardinière idéale pour \"cultiver\" des merguez,... Barbecue jardinière de balcon, Se fixe sur toute rambarde inférieure ou égale à 10,5 cm de largeur, Peut être utilisé en tant que jardinière classique, Comprend grill et plaque de cuisson pour les braises, En acier, coloris noir, Dimensions du barbecue environ 20 x 16 x 59 cm",
+  "created": "2020-09-15"
+},{
+  "_id": {
+    "$oid": "5f6250251e993709988e8267"
+  },
+  "user_id": "5f6243391e993709988e8232",
+  "city_id": "5f6244ee1e993709988e8237",
+  "title": "Brochette Merguez 6 en 1 pliable avec manche en bois Noir",
+  "price": "19",
+  "description": "Cette brochette barbecue 6 en 1 pliable avec manche en bois va vous donner l'envie de faire cuire vos Merguez au barbecue.Disposez vos merguez sur ces brochettes sur l'une des 6 branches plates de cette brochette à barbecue et ainsi les morceaux ne tourneront pas sur eux-mes.Grâce à son manche en bois pliable, cette brochette multiple pour barbecue se range facilement après utilisation",
+  "created": "2020-09-15"
+}]
